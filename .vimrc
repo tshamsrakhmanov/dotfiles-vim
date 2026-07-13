@@ -31,6 +31,9 @@ inoremap { {}<Left>
 inoremap " ""<Left>
 inoremap ' ''<Left>
 
+nnoremap <S-h> gT
+nnoremap <S-l> gt
+
 highlight DiffChange cterm=NONE ctermfg=black ctermbg=DarkBlue
 highlight DiffAdd    cterm=NONE ctermfg=black ctermbg=DarkGreen
 highlight DiffDelete cterm=NONE ctermfg=white ctermbg=DarkRed
