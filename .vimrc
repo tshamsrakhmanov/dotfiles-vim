@@ -20,7 +20,7 @@ set cursorline
 set hlsearch
 set nospell
 
-colorscheme slate
+colorscheme elflord
 
 nnoremap <C-_> :terminal<CR>
 nnoremap <C-]> :nohlsearch<CR>
