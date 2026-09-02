@@ -20,6 +20,11 @@ set cursorline
 set hlsearch
 set nospell
 
+" setup HISTORY and its file
+" -- DONT FORGET TO MKDIR IT !!!
+set undofile
+set undodir=~/.vim/undodir
+
 colorscheme elflord
 
 nnoremap <C-_> :terminal<CR>
